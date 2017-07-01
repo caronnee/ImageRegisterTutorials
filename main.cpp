@@ -37,9 +37,9 @@ int hwx()
 
 int main(const char * argc, int argv)
 {
-    DetectorDemo hw;
+    DetectorDemo demo;
     
-    hw.hw1();
+    demo.Perform();
     //wait for key
     cv::waitKey();
     return 0;

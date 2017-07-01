@@ -15,5 +15,5 @@ public:
     cv::Feature2D * featureDetector = NULL;
     DetectorDemo();
     // 
-    void hw1(DetectionType type = HARRIS, float sigma = 1.41);
+    void Perform(DetectionType type = HARRIS, float sigma = 1.41);
 };

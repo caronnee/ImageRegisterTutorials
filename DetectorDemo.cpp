@@ -4,7 +4,7 @@
 
 DetectorDemo::DetectorDemo()
 {
-    std::string folder("data\\hw4\\");
+    std::string folder("data\\detector\\");
     const char * names[] =
     {
     "pair1\\1.jpg",
@@ -29,7 +29,7 @@ DetectorDemo::DetectorDemo()
 #define IMAGE_INDEX 0
 #define THRESHOLD 0.99
 
-void DetectorDemo::hw1(DetectionType type /*= HARRIS*/, float sigma)
+void DetectorDemo::Perform(DetectionType type /*= HARRIS*/, float sigma)
 {
     if (type == HARRIS)
     {

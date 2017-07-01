@@ -6,7 +6,7 @@ RemoveDistorionDemo::RemoveDistorionDemo()
 
 {
     // 
-    std::string folder("data\\hw3\\");
+    std::string folder("data\\projection\\");
     const char * names[] =
     {
         "flatiron.jpg" ,

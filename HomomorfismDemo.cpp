@@ -72,7 +72,7 @@ cv::Mat HomomorfismDemo::FindHomomorphism(cv::Mat image, cv::Mat second, cv::Poi
 HomomorfismDemo::HomomorfismDemo()
 {
     // 
-    std::string folder("data\\hw2\\");
+    std::string folder("data\\Homomorfism\\");
     const char * names[] =
     {
         "1.jpg" ,
